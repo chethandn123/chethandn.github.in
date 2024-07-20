@@ -44,14 +44,23 @@
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet"> 
 
     <style>
-        .zoom-image {
+.zoom-image {
     transition: transform 0.5s ease;
+    z-index: 1px;
 }
 
 .zoom-image:hover {
     transform: scale(1.1);
 }
+.zoom-element {
+    transition: transform 0.5s ease;
+    display: flex;
+}
 
+.zoom-element:hover {
+    transform: scale(1.1);
+    
+}
     </style>
 
 
@@ -534,7 +543,7 @@
                 <div class="container">
                     <div class="section-content">
                     	<div class="row">
-                    		<div class="col-lg-5 col-md-12 m-b30 text-uppercase text-black">
+                    		<div class="col-lg-5 col-md-12 m-b30 text-uppercase text-black" style="text-align: justify;">
                             	<span class="font-30 font-weight-300 d-block m-b10">WHY TERRABYTES</span>
                                 <h2 class="font-40">
                                     <!-- We are creative Building  - Design  Company -->
@@ -712,85 +721,91 @@
             <!-- OUR STORY SECTION START -->
             <div class="section-full bg-gray p-t80 p-b50 square_shape1">
                 <div class="container">
-                    <h4>Our Services</h4>
                     <!-- TITLE START -->
                     <div class="section-head text-left text-black">
-                        <!-- <h2 class="text-uppercase font-36">Our Services</h2> -->
+                        <h2 class="text-uppercase font-36">Our Services</h2>
                         <div class="wt-separator-outer">
                             <div class="wt-separator bg-black"></div>
                         </div>
                     </div>
                     <!-- TITLE END -->                	
-                    <div class="section-content our-story">
-                        <div class="row" id="service-3d-walkthrough">
+                    <div class="section-content our-story" >
+                        <div class="row" id="service-3d-walkthrough" style="width: 1150px; height: 200px; " >
                         	<div class="col-lg-6 col-md-12">
-                            	<div class="wt-media our-story-pic">
-                                    <img src="https://archicgi.com/wp-content/uploads/2022/10/3d-animation-screen-mansion-1536x929.jpg" alt="" class="zoom-image">
+                                <div class="wt-media our-story-pic" >
+                                    <video width="560" height="315" src="video/123.mp4" frameborder="0" autoplay loop muted playsinline class="zoom-image"></video>
                                 </div>
                             </div>
-                        	<div class="col-lg-6 col-md-12 our-story-detail-wrap  zoom-element" >
-                            	<div class="wt-box our-story-detail">
-                                    <h3 class="text-uppercase">3D Walkthrough</h3>
+                        	<div class="col-lg-6 col-md-12 our-story-detail-wrap zoom-element" style="bottom: 60px;" >
+                            	<div class="wt-box our-story-detail" style="text-align: justify;" style="padding-bottom: 50px;" >
+                                    <h3 class="text-uppercase"><u>3D Walkthrough</u></h3>
                                     <!-- <h2 class="text-uppercase">Park Boathouse</h2> -->
-                                    <p style="text-transform: capitalize;">Cutting Edge Animation & 3D Walkthrough Videos for Real Estate Projects at affordable prices. Resplendent Exteriors & Opulent Interiors are presented with panache. Showcase your projects like Apartments, Villas, Plotted Layouts, Farmland Projects, Educational Institutions, Hospitals etc to your customers. Upload on YouTube, Social Platforms & Property Portals & give a ringside view of your Project to your prospective customers. A host of Deliverables that Include Short Videos, GIF Images, Hi Res Images can Catapult your Digital Marketing efforts to the Stratosphere 
+                                    <p style="text-transform: capitalize; text-align: justify;" >Cutting Edge Animation & 3D Walkthrough Videos for Real Estate Projects at affordable prices. Resplendent Exteriors & Opulent Interiors are presented with panache. Showcase your projects like Apartments, Villas, Plotted Layouts, Farmland Projects, Educational Institutions, Hospitals etc to your customers. Upload on YouTube, Social Platforms & Property Portals & give a ringside view of your Project to your prospective customers. A host of Deliverables that Include Short Videos, GIF Images, Hi Res Images can Catapult your Digital Marketing efforts to the Stratosphere 
                                         Terrabytes  offers the complete Suite of  services ranging from 3D Architectural Vizualization Rendering, 3D Walkthrough Rendering, Product Modeling & 3D Rendering, 3D Product Animation, 3D Character Animation, 3D & Real Image Manipulations, 360 Degree Panorama Rendering & Virtual Realty(VR) Presentation
                                         . </p>
                                 </div>
                             </div>
-                        </div>  
+                           
+                        </div> 
+                       <br><br> <br><br><br><br>
                         <div class="row" id="service-drone-videos">
-                            <div class="col-lg-6 col-md-12">
-                            	<div class="wt-media our-story-pic">
-                                    <img src="https://media.istockphoto.com/id/1128100064/photo/drone-spraying-a-field.jpg?s=612x612&w=0&k=20&c=jfUJzEqJOPz2JV9MKVk4x2lJME1EPZ8N2_U3SarzkJ0=" alt="" class="zoom-image">
+                            <div class="col-lg-6 col-md-12" >
+                           
+                                <div class="wt-media our-story-pic">
+                                    <video width="560" height="315" src="video/123.mp4" frameborder="0" autoplay loop muted playsinline class="zoom-image"></video>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-12 our-story-detail-wrap zoom-element">
-                            	<div class="wt-box our-story-detail">
+                            	<div class="wt-box our-story-detail"style="text-align: justify;" >
                                     <h3 class="text-uppercase">Drone Videos</h3>
-                                    <!-- <h2 class="text-uppercase">Museum Expansion</h2> -->
-                                    <p style="text-transform: capitalize;">ELEVATE the Experience of Viewing your Project.  Terrabytes provides you the most stunning aerial imagery captured by skilled Drone Pilots Having more than 7 Years Experience. Showcase the Route to your project & the Nearby Developments. </p>
+                      
+                                    <p style="text-transform: capitalize; text-align: justify;">ELEVATE the Experience of Viewing your Project.  Terrabytes provides you the most stunning aerial imagery captured by skilled Drone Pilots Having more than 7 Years Experience. Showcase the Route to your project & the Nearby Developments. </p>
                                 </div>
                             </div>
                         	
                         </div>
-                        <div class="row" id="service-360-panorama">
+                        <div class="row"  id="service-360-panorama">
                         	<div class="col-lg-6 col-md-12">
-                            	<div class="wt-media our-story-pic">
-                                    <img src="https://media.istockphoto.com/id/1705035753/photo/360-degree-photo-of-a-modern-home-living-room-kitchen-and-dining-area.webp?b=1&s=170667a&w=0&k=20&c=8Smgk1pOIV1EMquKhi3-4txi_NFnWylDdi7_zUQgYzI=" alt="" class="zoom-image">
+                    
+                                <div class="wt-media our-story-pic">
+                                    <video width="560" height="315" src="video/123.mp4" frameborder="0" autoplay loop muted playsinline class="zoom-image"></video>
                                 </div>
                             </div>
                         	<div class="col-lg-6 col-md-12 our-story-detail-wrap zoom-element">
-                            	<div class="wt-box our-story-detail">
+                            	<div class="wt-box our-story-detail" style="text-align: justify;">
                                     <h3 class="text-uppercase">360 Panorama</h3>
-                                    <!-- <h2 class="text-uppercase">Eisenhower Memoria</h2> -->
-                                    <p style="text-transform: capitalize;">An interactive & Immersive Virtual tour of your entire Project including Elevations, Interiers of the Home, Club House, Street Views, Landscape & Amenities etc which allows the user to explore the Project in complete 360 degree as though they are inside the Project. Engage your Customer for longer periods on your Website & showcase every detail with Rich 3D imagery that captivates your Viewer. Virtual Reality (VR) experience is an added advantage & will teleport your audience inside the project. </p>
+                      
+                                    <p style="text-transform: capitalize; text-align: justify;">An interactive & Immersive Virtual tour of your entire Project including Elevations, Interiers of the Home, Club House, Street Views, Landscape & Amenities etc which allows the user to explore the Project in complete 360 degree as though they are inside the Project. Engage your Customer for longer periods on your Website & showcase every detail with Rich 3D imagery that captivates your Viewer. Virtual Reality (VR) experience is an added advantage & will teleport your audience inside the project. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row" id="service-web-design">
                             <div class="col-lg-6 col-md-12">
-                            	<div class="wt-media our-story-pic">
+                            	<!-- <div class="wt-media our-story-pic">
                                     <img src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=1024x1024&w=is&k=20&c=YdGWQdXQYg-G1H89Q12soaleNQEKH9JpihwvrLdFHeA=" alt="" class="zoom-image">
+                                </div> -->
+                                <div class="wt-media our-story-pic">
+                                    <video width="560" height="315" src="video/123.mp4" frameborder="0" autoplay loop muted playsinline class="zoom-image"></video>
                                 </div>
                             </div>
                         	<div class="col-lg-6 col-md-12 our-story-detail-wrap zoom-element">
-                            	<div class="wt-box our-story-detail">
+                            	<div class="wt-box our-story-detail" >
                                     <h3 class="text-uppercase">Web Design</h3>
                                     <!-- <h2 class="text-uppercase">Columbia Sport Center</h2> -->
-                                    <p style="text-transform: capitalize;">Conquer the Digital world with Innovative SEO friendly Websites designed by TERRABYTES. Advanced tools & strategies  adpating Google Defined Coding Structure  juice up the performance of your website, driving more traffic, and boosting revenue.
+                                    <p style="text-transform: capitalize; text-align: justify;">Conquer the Digital world with Innovative SEO friendly Websites designed by TERRABYTES. Advanced tools & strategies  adpating Google Defined Coding Structure  juice up the performance of your website, driving more traffic, and boosting revenue.
                                         A Website Is The First Impression Of any Business. Make a Best First Impression!
                                         . </p>
                                 </div>
                             </div>
                         	
                         </div>  
-                        <div class="row" id="service-corporate-films" >
+                        <div class="row" id="service-corporate-films">
                             <div class="col-lg-6 col-md-12">
-                            	<div class="wt-media our-story-pic">
-                                    <img src="https://images.unsplash.com/photo-1548061220-b04df30a2b6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ycG9yYXRlJTIwdmlkZW98ZW58MHx8MHx8fDA%3D" alt="" class="zoom-image">
+                                <div class="wt-media our-story-pic">
+                                    <video width="560" height="315" src="video/123.mp4" frameborder="0" autoplay loop muted playsinline class="zoom-image"></video>
                                 </div>
                             </div>
-                        	<div class="col-lg-6 col-md-12 our-story-detail-wrap zoom-element" >
+                        	<div class="col-lg-6 col-md-12 our-story-detail-wrap zoom-element" style="bottom: 35px;">
                             	<div class="wt-box our-story-detail">
                                     <h3 class="text-uppercase">Corporate Films </h3>
                                     <!-- <h2 class="text-uppercase">Columbia Sport Center</h2> -->
@@ -808,8 +823,7 @@
                 </div>
                 
                 
-            </div>   
-            <!-- OUR STORY SECTION END -->                          
+            </div><!-- OUR STORY SECTION END -->                          
             
         </div> 
             <!-- WHO WE ARE SECTION END --> 
@@ -971,54 +985,25 @@
                 <div class="container p-t30">
                     <div class="footer-bottom-content d-flex align-items-center justify-content-between">
                     
-                        <!-- <div class="wt-footer-bot-left"> -->
-                            <!-- <a href="#"><img src="img/tera1.jpg" width="140" height="58" alt=""></a> -->
-                        <!-- </div> -->
+                        <div class="wt-footer-bot-left">
+                            <a href="#"><img src="img/tera1.jpg" width="140" height="58" alt=""></a>
+                        </div>
                         
                         <div class="text-center copyright-block p-t15">
-                            <span class="copyrights-text" style="padding-left: 300px;">© 2024 Your Company. Designed By Team Terrabytes.</span>
-                            
-                            <ul class="social-bx list-inline">
-                                <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
-                                <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
-                                <li><a href="https://www.linkedin.com" class="fa fa-linkedin"></a></li>
-                                <li><a href="https://www.rss.com" class="fa fa-rss"></a></li>
-                                <li><a href="https://www.youtube.com" class="fa fa-youtube"></a></li>
-                                <li><a href="https://www.instagram.com" class="fa fa-instagram"></a></li>
-                            </ul>
+                            <span class="copyrights-text">© 2023 Your Company. Designed By Team Terrabytes.</span>
                         </div>  
                                              
-                        <!-- <div class="wt-footer-bot-right p-t15">
+                        <div class="wt-footer-bot-right p-t15">
                             <ul class="copyrights-nav pull-right"> 
                                 <li><a href="about-1.html">Terms  & Condition</a></li>
                                 <li><a href="about-1.html">Privacy Policy</a></li>
                                 <li><a href="contact-1.html">Contact Us</a></li>
                             </ul>
-                        </div> -->
-                        <!-- <div class="extra-nav header-top-info">
-                            <div class="extra-cell">
-                                <div class="wt-topbar-right clearfix top-bar">
-                                    <ul class="social-bx list-inline pull-right">
-                                        <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                        <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                    </ul>
-                                    <ul class="list-unstyled list-inline e-p-bx pull-right">
-                                        <li><i class="fa fa-envelope"></i>wow@terrabytes.in</li>
-                                        <li><i class="fa fa-phone"></i>+91 9844144680</li>
-                                    </ul>
-                                </div>
-                            </div>
-                         </div>   -->
-                        
-                        
+                        </div>
+    
                     </div>
                 </div>
             </div>
-            
         </footer>
         <!-- FOOTER END -->
 
